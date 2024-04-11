@@ -64,9 +64,8 @@ struct DibujarVista: View {
                     .lineLimit(1) // Limita el texto a una línea
                     .padding(8) // Añade relleno para mejorar la apariencia del botón
                 //Aquí aplicamos el estilo del botón que hemos creado más abajo
-                    .background(FormaBoton().fill(.red))
+                    .background(FormaBoton2().fill(.red))
             }
-            
                    
             ZStack{
                 Path() { path in
@@ -74,9 +73,10 @@ struct DibujarVista: View {
                     path.addLine(to: CGPoint(x: 300, y: 20))
                     path.addLine(to: CGPoint(x: 300, y: 200))
                     path.addLine(to: CGPoint(x: 20, y: 200))
+                    //path.addLine(to:CGPoint(x: 20, y: 20))
                     //Si comentamos esta línea, la forma no se cierra.
                     //Podemos cerrarla, si es un borde o stroke, rellenarla o crear la última linea.
-                    path.closeSubpath()
+                   path.closeSubpath()
                 }
                 //.fill(Color.green)
                 .stroke(.black,lineWidth: 4)
@@ -85,20 +85,6 @@ struct DibujarVista: View {
     }
 }
 
-struct FormaBoton : Shape {
-    
-    func path(in rect: CGRect) -> Path {
-        //El tamaño x,y se coge del .frame
-        var path = Path()
-        
-        path.move(to: CGPoint(x: 0, y: 0))
-        path.addQuadCurve(to: CGPoint(x:rect.size.width,y:0), control: CGPoint(x:rect.size.width/2,y:-(rect.size.width*0.1)))
-        path.addRect(CGRect(x:0,y:0,width:rect.size.width,height:rect.size.height))
-        
-        return path
-    }
-    
-}
 
 struct DibujarVista_Previews: PreviewProvider {
     static var previews: some View {

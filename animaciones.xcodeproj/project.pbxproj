@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		82EA8C1D2BC2B57D00237A93 /* DibujarVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA8C1C2BC2B57D00237A93 /* DibujarVista.swift */; };
+		82EA8C1F2BC5AFEB00237A93 /* Estilos de boton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EA8C1E2BC5AFEB00237A93 /* Estilos de boton.swift */; };
 		82ED0CA32BC16A0A0065D24A /* animacionesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED0CA22BC16A0A0065D24A /* animacionesApp.swift */; };
 		82ED0CA52BC16A0A0065D24A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82ED0CA42BC16A0A0065D24A /* ContentView.swift */; };
 		82ED0CA72BC16A0E0065D24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82ED0CA62BC16A0E0065D24A /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		82EA8C1C2BC2B57D00237A93 /* DibujarVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DibujarVista.swift; sourceTree = "<group>"; };
+		82EA8C1E2BC5AFEB00237A93 /* Estilos de boton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Estilos de boton.swift"; sourceTree = "<group>"; };
 		82ED0C9F2BC16A0A0065D24A /* animaciones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = animaciones.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		82ED0CA22BC16A0A0065D24A /* animacionesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animacionesApp.swift; sourceTree = "<group>"; };
 		82ED0CA42BC16A0A0065D24A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 		82ED0C962BC16A0A0065D24A = {
 			isa = PBXGroup;
 			children = (
+				82EA8C1E2BC5AFEB00237A93 /* Estilos de boton.swift */,
 				82EA8C1C2BC2B57D00237A93 /* DibujarVista.swift */,
 				82ED0CCC2BC1DD840065D24A /* Transicion.swift */,
 				82ED0CA12BC16A0A0065D24A /* animaciones */,
@@ -265,6 +268,7 @@
 			files = (
 				82ED0CA52BC16A0A0065D24A /* ContentView.swift in Sources */,
 				82EA8C1D2BC2B57D00237A93 /* DibujarVista.swift in Sources */,
+				82EA8C1F2BC5AFEB00237A93 /* Estilos de boton.swift in Sources */,
 				82ED0CCD2BC1DD840065D24A /* Transicion.swift in Sources */,
 				82ED0CA32BC16A0A0065D24A /* animacionesApp.swift in Sources */,
 			);
